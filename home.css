@@ -1,0 +1,93 @@
+* {
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    width: 100%;
+    background-color: #f2f2f2; /* Slightly off-white background */
+}
+.headsection {
+    padding: 7px;
+    height: 40px;
+    width: fit-content;
+    text-align: center;
+    background-color: greenyellow;
+    color: black;
+    font-size: 20px;
+    margin: 20px auto; /* Center the header horizontally */
+}
+
+.profile {
+    position: relative;
+    height: 400px;
+    width: calc(40% - 15px);/* Adjusted width and added margin */
+    box-shadow: 0 15px 35px rgba(255, 0, 0, 1);
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 0 auto 15px; /* Center the profile section horizontally */
+    margin-top: 20px; /* Increase top margin to avoid being too close to the header */
+}
+
+.profile img {
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    border-radius: 50%; /* Adjust to 50% for a circular image */
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+}
+.profile a p {
+font-size: 20px;
+}
+
+
+
+.leftpic {
+    margin-left: 15px;
+    border-radius: 10px;
+    padding-top: 10px;
+    position: relative;
+    height: 400px;
+    max-width: 40%; /* Set a maximum width for the aside element */
+float: left;
+clear: both;
+margin-bottom: 20px;
+background-color: aqua;
+font-size: 25px;
+box-shadow: 0 15px 35px rgba(255, 0, 0, 1);
+}
+.leftpic img{
+    
+        margin: 5px;
+        padding: 10px;
+        position: relative;
+        border-radius: 50%; /* Adjust to 50% for a circular image */
+        height: 300px;
+        width: 300px;
+        max-width: 100%;
+    
+}
+.rightpic{
+    margin-right: 15px;
+    border-radius: 10px;
+    position: relative;
+    height: 400px;
+    max-width: 40%; /* Set a maximum width for the aside element */
+float: right;
+margin-bottom: 20px;
+background-color: aqua;
+font-size: 25px;
+box-shadow: 0 15px 35px rgba(255, 0, 0, 1);
+}
+.rightpic img{
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    border-radius: 50%; /* Adjust to 50% for a circular image */
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+
+}
